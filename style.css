@@ -144,10 +144,11 @@ img { max-width: 100%; display: block; }
 .hero-image {
   min-height: 92vh;
   background:
-    linear-gradient(90deg, rgba(41,28,20,0.24) 0%, rgba(41,28,20,0.02) 36%, rgba(41,28,20,0.26) 100%),
-    radial-gradient(circle at 76% 22%, rgba(255,232,179,0.7), transparent 26%),
-    radial-gradient(circle at 24% 82%, rgba(111,171,181,0.55), transparent 28%),
-    linear-gradient(180deg, rgba(121,171,181,0.9) 0%, rgba(115,166,175,0.85) 36%, rgba(233,214,189,0.84) 64%, rgba(188,169,141,0.88) 100%);
+    linear-gradient(90deg, rgba(41,28,20,0.28) 0%, rgba(41,28,20,0.06) 34%, rgba(41,28,20,0.34) 100%),
+    linear-gradient(180deg, rgba(255,223,165,0.16) 0%, rgba(9,18,26,0.08) 100%),
+    url('https://images.pexels.com/photos/13097781/pexels-photo-13097781.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1400&w=2200');
+  background-size: cover;
+  background-position: center 32%;
   position: relative;
   overflow: hidden;
 }
@@ -157,13 +158,9 @@ img { max-width: 100%; display: block; }
   position: absolute;
   inset: 0;
   background:
-    radial-gradient(circle at 23% 58%, rgba(18,16,14,0.84) 0 7%, transparent 7.4%),
-    radial-gradient(circle at 23% 48%, rgba(18,16,14,0.95) 0 4.2%, transparent 4.4%),
-    radial-gradient(ellipse at 23% 68%, rgba(18,16,14,0.98) 0 12%, transparent 12.4%),
-    radial-gradient(ellipse at 24% 71%, rgba(18,16,14,0.9) 0 4.2%, transparent 4.4%);
-  filter: blur(18px);
+    radial-gradient(circle at 76% 22%, rgba(255,232,179,0.32), transparent 26%),
+    linear-gradient(180deg, rgba(255,255,255,0.05), rgba(255,255,255,0.02));
   opacity: 0.95;
-  transform: scale(1.08);
 }
 
 .hero-image::after {
@@ -171,8 +168,8 @@ img { max-width: 100%; display: block; }
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(0deg, rgba(255,255,255,0.08), rgba(255,255,255,0.08)),
-    repeating-linear-gradient(90deg, rgba(255,255,255,0.018) 0 1px, transparent 1px 4px);
+    linear-gradient(0deg, rgba(255,255,255,0.05), rgba(255,255,255,0.05)),
+    repeating-linear-gradient(90deg, rgba(255,255,255,0.014) 0 1px, transparent 1px 4px);
   mix-blend-mode: soft-light;
 }
 
@@ -387,21 +384,18 @@ blockquote footer,
 
 .driftwood {
   background:
-    radial-gradient(circle at 72% 18%, rgba(242, 220, 171, 0.55), transparent 18%),
-    repeating-linear-gradient(135deg, rgba(128,91,61,0.18) 0 14px, rgba(163,124,91,0.26) 14px 30px, rgba(214,188,160,0.22) 30px 44px),
-    linear-gradient(180deg, #e8d9c4 0%, #cfb494 48%, #8c6a4f 100%);
+    linear-gradient(180deg, rgba(24,20,18,0.14), rgba(24,20,18,0.08)),
+    url('https://images.pexels.com/photos/19072573/pexels-photo-19072573.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=1200');
+  background-size: cover;
+  background-position: center;
   position: relative;
 }
 
 .driftwood::after {
   content: "";
   position: absolute;
-  inset: 14% 17% 18% 19%;
-  border-radius: 30px;
-  background:
-    repeating-linear-gradient(90deg, rgba(10,10,10,0.2) 0 8px, rgba(28,28,28,0.92) 8px 18px),
-    linear-gradient(180deg, #141210 0%, #2d2926 100%);
-  box-shadow: 0 30px 70px rgba(40, 23, 10, 0.22);
+  inset: 0;
+  background: linear-gradient(180deg, rgba(255,242,224,0.08), rgba(0,0,0,0.14));
 }
 
 .product-visual {
@@ -411,10 +405,26 @@ blockquote footer,
   background-color: #d9cec1;
 }
 
-.visual-one { background: linear-gradient(180deg, #c9d6d8 0%, #eee3d4 52%, #1c1918 53%, #2f2a27 100%); }
-.visual-two { background: linear-gradient(180deg, #7ba6b0 0%, #e6d7c7 56%, #171412 57%, #221f1d 100%); }
-.visual-three { background: linear-gradient(180deg, #efe2d0 0%, #faf6ef 50%, #d7ccb9 100%); }
-.visual-four { background: linear-gradient(180deg, #c79478 0%, #edd8c5 50%, #a86d52 100%); }
+.visual-one {
+  background-image: linear-gradient(180deg, rgba(20,18,16,0.06), rgba(20,18,16,0.16)), url('https://images.pexels.com/photos/9112046/pexels-photo-9112046.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=900&w=700');
+  background-size: cover;
+  background-position: center;
+}
+.visual-two {
+  background-image: linear-gradient(180deg, rgba(20,18,16,0.08), rgba(20,18,16,0.18)), url('https://images.pexels.com/photos/20262494/pexels-photo-20262494.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=900&w=700');
+  background-size: cover;
+  background-position: center;
+}
+.visual-three {
+  background-image: linear-gradient(180deg, rgba(20,18,16,0.04), rgba(20,18,16,0.14)), url('https://images.pexels.com/photos/37137660/pexels-photo-37137660.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=900&w=700');
+  background-size: cover;
+  background-position: center;
+}
+.visual-four {
+  background-image: linear-gradient(180deg, rgba(20,18,16,0.04), rgba(20,18,16,0.14)), url('https://images.pexels.com/photos/35520044/pexels-photo-35520044.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=900&w=700');
+  background-size: cover;
+  background-position: center;
+}
 
 .prop-grid h3,
 .product-card h3,
@@ -434,10 +444,10 @@ blockquote footer,
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(180deg, rgba(31,27,24,0.05) 0%, rgba(31,27,24,0.45) 100%),
-    radial-gradient(circle at 18% 70%, rgba(252,235,210,0.38), transparent 16%),
-    radial-gradient(circle at 38% 62%, rgba(244,224,194,0.4), transparent 18%),
-    linear-gradient(180deg, #98bbc0 0%, #c5d8d7 28%, #f3efe7 46%, #d8c6ae 68%, #8f7b68 100%);
+    linear-gradient(180deg, rgba(31,27,24,0.08) 0%, rgba(31,27,24,0.52) 100%),
+    url('https://images.pexels.com/photos/8733086/pexels-photo-8733086.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1400&w=2200');
+  background-size: cover;
+  background-position: center 36%;
 }
 
 .lifestyle-copy {
@@ -466,21 +476,18 @@ blockquote footer {
 
 .seam-detail {
   background:
-    radial-gradient(circle at 68% 24%, rgba(250,224,182,0.44), transparent 16%),
-    repeating-linear-gradient(135deg, rgba(36,33,31,0.96) 0 18px, rgba(18,15,13,0.96) 18px 36px),
-    linear-gradient(180deg, #2f2a27 0%, #171412 100%);
+    linear-gradient(180deg, rgba(20,18,16,0.08), rgba(20,18,16,0.22)),
+    url('https://images.pexels.com/photos/17285814/pexels-photo-17285814.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=1200');
+  background-size: cover;
+  background-position: center top;
   position: relative;
 }
 
 .seam-detail::after {
   content: "";
   position: absolute;
-  top: 10%;
-  bottom: 10%;
-  left: 48%;
-  width: 2px;
-  background: rgba(245, 237, 225, 0.55);
-  box-shadow: 0 0 0 8px rgba(245, 237, 225, 0.05);
+  inset: 0;
+  background: linear-gradient(180deg, rgba(245,237,225,0.06), rgba(0,0,0,0.12));
 }
 
 .reverse { flex-direction: row-reverse; }
