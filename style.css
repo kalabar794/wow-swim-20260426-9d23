@@ -146,9 +146,9 @@ img { max-width: 100%; display: block; }
   background:
     linear-gradient(90deg, rgba(41,28,20,0.28) 0%, rgba(41,28,20,0.06) 34%, rgba(41,28,20,0.34) 100%),
     linear-gradient(180deg, rgba(255,223,165,0.16) 0%, rgba(9,18,26,0.08) 100%),
-    url('https://images.pexels.com/photos/13097781/pexels-photo-13097781.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1400&w=2200');
+    url('https://images.pexels.com/photos/11340315/pexels-photo-11340315.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1400&w=2200');
   background-size: cover;
-  background-position: center 32%;
+  background-position: center 26%;
   position: relative;
   overflow: hidden;
 }
@@ -385,7 +385,7 @@ blockquote footer,
 .driftwood {
   background:
     linear-gradient(180deg, rgba(24,20,18,0.14), rgba(24,20,18,0.08)),
-    url('https://images.pexels.com/photos/19072573/pexels-photo-19072573.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=1200');
+    url('https://images.pexels.com/photos/13097778/pexels-photo-13097778.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=1200');
   background-size: cover;
   background-position: center;
   position: relative;
@@ -445,9 +445,9 @@ blockquote footer,
   inset: 0;
   background:
     linear-gradient(180deg, rgba(31,27,24,0.08) 0%, rgba(31,27,24,0.52) 100%),
-    url('https://images.pexels.com/photos/8733086/pexels-photo-8733086.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1400&w=2200');
+    url('https://images.pexels.com/photos/10960321/pexels-photo-10960321.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1400&w=2200');
   background-size: cover;
-  background-position: center 36%;
+  background-position: center 32%;
 }
 
 .lifestyle-copy {
@@ -477,7 +477,7 @@ blockquote footer {
 .seam-detail {
   background:
     linear-gradient(180deg, rgba(20,18,16,0.08), rgba(20,18,16,0.22)),
-    url('https://images.pexels.com/photos/17285814/pexels-photo-17285814.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=1200');
+    url('https://images.pexels.com/photos/29146253/pexels-photo-29146253.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=1200');
   background-size: cover;
   background-position: center top;
   position: relative;
