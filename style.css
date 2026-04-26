@@ -144,11 +144,11 @@ img { max-width: 100%; display: block; }
 .hero-image {
   min-height: 92vh;
   background:
-    linear-gradient(90deg, rgba(41,28,20,0.28) 0%, rgba(41,28,20,0.06) 34%, rgba(41,28,20,0.34) 100%),
-    linear-gradient(180deg, rgba(255,223,165,0.16) 0%, rgba(9,18,26,0.08) 100%),
-    url('https://images.pexels.com/photos/11340315/pexels-photo-11340315.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1400&w=2200');
+    linear-gradient(90deg, rgba(41,28,20,0.42) 0%, rgba(41,28,20,0.12) 34%, rgba(41,28,20,0.4) 100%),
+    linear-gradient(180deg, rgba(255,223,165,0.14) 0%, rgba(9,18,26,0.12) 100%),
+    url('https://images.pexels.com/photos/29146253/pexels-photo-29146253.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1400&w=2200');
   background-size: cover;
-  background-position: center 26%;
+  background-position: center 18%;
   position: relative;
   overflow: hidden;
 }
@@ -182,14 +182,14 @@ img { max-width: 100%; display: block; }
 }
 
 .hero-copy {
-  max-width: 540px;
+  max-width: 560px;
   padding: 44px;
   border: 1px solid rgba(255,255,255,0.2);
   border-radius: 32px;
-  background: rgba(31, 27, 24, 0.18);
+  background: rgba(31, 27, 24, 0.24);
   backdrop-filter: blur(14px);
   color: #f9f4ed;
-  box-shadow: 0 20px 80px rgba(20, 16, 12, 0.18);
+  box-shadow: 0 20px 80px rgba(20, 16, 12, 0.22);
 }
 
 .eyebrow,
@@ -259,8 +259,8 @@ blockquote footer,
 }
 
 .btn-primary {
-  background: #f5ede1;
-  color: #1f1b18;
+  background: #1f1b18;
+  color: #f8f3ec;
 }
 
 .btn-secondary {
@@ -320,7 +320,7 @@ blockquote footer,
 }
 
 .three-up > * { width: calc(33.333% - 16px); }
-.four-up > * { width: calc(25% - 18px); }
+.four-up > * { width: calc(50% - 12px); }
 
 .card,
 .product-card,
@@ -349,17 +349,50 @@ blockquote footer,
 }
 
 .swatch {
-  display: block;
-  width: 56px;
-  height: 56px;
-  border-radius: 50%;
-  margin-bottom: 22px;
-  border: 1px solid rgba(0,0,0,0.08);
+  display: none;
 }
 
-.black .swatch { background: #161311; }
-.cream .swatch { background: #ede3d2; }
-.terracotta .swatch { background: #a86d52; }
+.visual-card {
+  padding: 18px 18px 28px;
+}
+
+.category-visual {
+  aspect-ratio: 0.9;
+  border-radius: 22px;
+  margin-bottom: 18px;
+  background-size: cover;
+  background-position: center;
+  box-shadow: inset 0 -40px 80px rgba(22, 17, 14, 0.12);
+}
+
+.category-black {
+  background-image: linear-gradient(180deg, rgba(20,18,16,0.04), rgba(20,18,16,0.2)), url('https://images.pexels.com/photos/29146253/pexels-photo-29146253.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1000&w=900');
+  background-position: center 18%;
+}
+
+.category-string {
+  background-image: linear-gradient(180deg, rgba(20,18,16,0.04), rgba(20,18,16,0.18)), url('https://images.pexels.com/photos/35520044/pexels-photo-35520044.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1000&w=900');
+}
+
+.category-cheeky {
+  background-image: linear-gradient(180deg, rgba(20,18,16,0.06), rgba(20,18,16,0.16)), url('https://images.pexels.com/photos/20262494/pexels-photo-20262494.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1000&w=900');
+}
+
+.category-kicker,
+.product-badge {
+  display: inline-flex;
+  align-items: center;
+  min-height: 28px;
+  padding: 0 12px;
+  border-radius: 999px;
+  border: 1px solid rgba(31,27,24,0.1);
+  background: rgba(255,255,255,0.72);
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+}
+
 
 .text-link {
   display: inline-block;
@@ -401,7 +434,7 @@ blockquote footer,
 .product-visual {
   aspect-ratio: 0.78;
   border-radius: 22px;
-  margin-bottom: 22px;
+  margin-bottom: 18px;
   background-color: #d9cec1;
 }
 
@@ -432,6 +465,14 @@ blockquote footer,
   margin-bottom: 12px;
 }
 
+.product-card h3 {
+  font-size: 2.15rem;
+}
+
+.product-card p {
+  font-size: 1rem;
+}
+
 .lifestyle-band {
   position: relative;
   min-height: 780px;
@@ -444,10 +485,10 @@ blockquote footer,
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(180deg, rgba(31,27,24,0.08) 0%, rgba(31,27,24,0.52) 100%),
-    url('https://images.pexels.com/photos/10960321/pexels-photo-10960321.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1400&w=2200');
+    linear-gradient(180deg, rgba(31,27,24,0.04) 0%, rgba(31,27,24,0.54) 100%),
+    url('https://images.pexels.com/photos/9112046/pexels-photo-9112046.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1400&w=2200');
   background-size: cover;
-  background-position: center 32%;
+  background-position: center 24%;
 }
 
 .lifestyle-copy {
